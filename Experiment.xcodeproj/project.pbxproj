@@ -20,6 +20,12 @@
 		406840691FD40B89004332BB /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840681FD40B89004332BB /* bottle.png */; };
 		4068406D1FD40DD7004332BB /* AddLovedOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068406C1FD40DD7004332BB /* AddLovedOneViewController.swift */; };
 		406840771FD4251F004332BB /* logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840761FD4251E004332BB /* logo_black.png */; };
+		406840791FD437D6004332BB /* pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840781FD437D6004332BB /* pill.png */; };
+		4068407B1FD4388C004332BB /* grey_pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068407A1FD4388C004332BB /* grey_pill.png */; };
+		4068407D1FD43C73004332BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068407C1FD43C73004332BB /* ProfileViewController.swift */; };
+		4068407F1FD43DE0004332BB /* tabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068407E1FD43DE0004332BB /* tabs.png */; };
+		406840811FD43EFB004332BB /* pillcombo.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840801FD43EFB004332BB /* pillcombo.png */; };
+		406840851FD4442D004332BB /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 406840841FD4442C004332BB /* DLRadioButton.m */; };
 		9D3712ACAB18557C6BF08EFA /* Pods_Experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE754FC0D9D994FD0482F12B /* Pods_Experiment.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +67,14 @@
 		406840681FD40B89004332BB /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
 		4068406C1FD40DD7004332BB /* AddLovedOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLovedOneViewController.swift; sourceTree = "<group>"; };
 		406840761FD4251E004332BB /* logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_black.png; sourceTree = "<group>"; };
+		406840781FD437D6004332BB /* pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pill.png; sourceTree = "<group>"; };
+		4068407A1FD4388C004332BB /* grey_pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_pill.png; sourceTree = "<group>"; };
+		4068407C1FD43C73004332BB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4068407E1FD43DE0004332BB /* tabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabs.png; sourceTree = "<group>"; };
+		406840801FD43EFB004332BB /* pillcombo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillcombo.png; sourceTree = "<group>"; };
+		406840821FD4442B004332BB /* Experiment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Experiment-Bridging-Header.h"; sourceTree = "<group>"; };
+		406840831FD4442C004332BB /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		406840841FD4442C004332BB /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
 		8D303A95604817AC09056FFF /* Pods-Experiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Experiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Experiment/Pods-Experiment.release.xcconfig"; sourceTree = "<group>"; };
 		DE754FC0D9D994FD0482F12B /* Pods_Experiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Experiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +138,12 @@
 		4030AEF61FD2384D00147968 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
+				406840831FD4442C004332BB /* DLRadioButton.h */,
+				406840841FD4442C004332BB /* DLRadioButton.m */,
+				406840801FD43EFB004332BB /* pillcombo.png */,
+				4068407E1FD43DE0004332BB /* tabs.png */,
+				4068407A1FD4388C004332BB /* grey_pill.png */,
+				406840781FD437D6004332BB /* pill.png */,
 				406840761FD4251E004332BB /* logo_black.png */,
 				406840681FD40B89004332BB /* bottle.png */,
 				406840641FD40682004332BB /* plus.png */,
@@ -133,9 +153,11 @@
 				4030AEFB1FD2384D00147968 /* Main.storyboard */,
 				4068406C1FD40DD7004332BB /* AddLovedOneViewController.swift */,
 				406840661FD407D7004332BB /* LovedOnesController.swift */,
+				4068407C1FD43C73004332BB /* ProfileViewController.swift */,
 				4030AEFE1FD2384D00147968 /* Assets.xcassets */,
 				4030AF001FD2384D00147968 /* LaunchScreen.storyboard */,
 				4030AF031FD2384D00147968 /* Info.plist */,
+				406840821FD4442B004332BB /* Experiment-Bridging-Header.h */,
 			);
 			path = Experiment;
 			sourceTree = "<group>";
@@ -238,6 +260,7 @@
 				TargetAttributes = {
 					4030AEF31FD2384D00147968 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					4030AF071FD2384D00147968 = {
@@ -278,9 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				406840771FD4251F004332BB /* logo_black.png in Resources */,
+				4068407F1FD43DE0004332BB /* tabs.png in Resources */,
 				4030AF021FD2384D00147968 /* LaunchScreen.storyboard in Resources */,
 				4068405F1FD4054F004332BB /* heart.png in Resources */,
 				4030AEFF1FD2384D00147968 /* Assets.xcassets in Resources */,
+				406840791FD437D6004332BB /* pill.png in Resources */,
+				4068407B1FD4388C004332BB /* grey_pill.png in Resources */,
+				406840811FD43EFB004332BB /* pillcombo.png in Resources */,
 				406840651FD40682004332BB /* plus.png in Resources */,
 				4030AEFD1FD2384D00147968 /* Main.storyboard in Resources */,
 				406840691FD40B89004332BB /* bottle.png in Resources */,
@@ -365,7 +392,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4030AEFA1FD2384D00147968 /* ViewController.swift in Sources */,
+				406840851FD4442D004332BB /* DLRadioButton.m in Sources */,
 				406840671FD407D7004332BB /* LovedOnesController.swift in Sources */,
+				4068407D1FD43C73004332BB /* ProfileViewController.swift in Sources */,
 				4068406D1FD40DD7004332BB /* AddLovedOneViewController.swift in Sources */,
 				4030AEF81FD2384D00147968 /* AppDelegate.swift in Sources */,
 			);
@@ -534,6 +563,7 @@
 			baseConfigurationReference = 237F8D1C925ADA2B6EC2DE38 /* Pods-Experiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKVR37GFWG;
 				INFOPLIST_FILE = Experiment/Info.plist;
@@ -541,6 +571,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = challenge.com.melgravier.Experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Experiment/Experiment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -551,6 +583,7 @@
 			baseConfigurationReference = 8D303A95604817AC09056FFF /* Pods-Experiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKVR37GFWG;
 				INFOPLIST_FILE = Experiment/Info.plist;
@@ -558,6 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = challenge.com.melgravier.Experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Experiment/Experiment-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

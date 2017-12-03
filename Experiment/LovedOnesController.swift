@@ -7,8 +7,10 @@
 //
 
 import UIKit
+var myIndex = 0
 
 class LovedOnesController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     
     @IBOutlet var table: UITableView!
     
@@ -52,6 +54,11 @@ class LovedOnesController: UIViewController, UITableViewDelegate, UITableViewDat
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "segue", sender: self)
     }
     
 

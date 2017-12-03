@@ -22,10 +22,12 @@ class AddLovedOneViewController: UIViewController, UITextFieldDelegate {
         UserDefaults.standard.set(items, forKey:"items")
         lovedOneName.text = ""
         lovedOnePhone.text = ""
+        lovedOneMed.text = ""
     }
     
     @IBOutlet var lovedOnePhone: UITextField!
     @IBOutlet var lovedOneName: UITextField!
+    @IBOutlet var lovedOneMed: UITextField!
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
