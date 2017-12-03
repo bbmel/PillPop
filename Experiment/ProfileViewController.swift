@@ -10,15 +10,18 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
-    
-    @IBAction func userMedInput(_ sender: Any) {
+    /*
+    @IBAction func userMedInput(_ sender: UITextField) {
+        medLabel.text = sender.text! + "Reminder"
     }
     @IBOutlet var medLabel: UILabel!
+    */
     
     
     
-    @IBOutlet var pickerView: UIPickerView!
+    @IBOutlet var medicineReminder: UILabel!
     
+    @IBOutlet var datePicker: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
