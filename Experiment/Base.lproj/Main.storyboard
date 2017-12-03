@@ -28,7 +28,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdM-h1-Gff">
                                 <rect key="frame" x="55" y="401" width="210" height="30"/>
-                                <color key="backgroundColor" red="0.20648379836572786" green="0.11017949130415611" blue="0.35627019133059501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.69080444408632657" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Log In">
@@ -40,16 +40,16 @@
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="J1Z-Iq-QL2">
                                 <rect key="frame" x="55" y="310" width="210" height="30"/>
-                                <color key="backgroundColor" red="0.56488857642176638" green="0.30832848464360396" blue="0.96655350742001223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" textContentType="username"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="hE9-uL-tif">
                                 <rect key="frame" x="55" y="348" width="210" height="30"/>
-                                <color key="backgroundColor" red="0.56406164169311523" green="0.32034194469451904" blue="0.96584242582321167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_lowres.png" translatesAutoresizingMaskIntoConstraints="NO" id="C1M-kT-2QK">
@@ -61,7 +61,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRD-Qz-rYM">
                                 <rect key="frame" x="55" y="439" width="210" height="30"/>
-                                <color key="backgroundColor" red="0.20760190486907959" green="0.10962720960378647" blue="0.35672903060913086" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.9666559100151062" green="0.68803709745407104" blue="0.19485792517662048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="tintColor" red="0.37571549415588379" green="0.69099611043930054" blue="0.95566636323928833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sign Up">
@@ -72,7 +72,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.49218355650395934" green="0.18272738786565967" blue="0.84936151649746194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95280677080154419" green="0.57203382253646851" blue="0.19131067395210266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OdM-h1-Gff" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="3M6-fd-3q3"/>
                             <constraint firstItem="J1Z-Iq-QL2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="7FK-Kh-qgl"/>
@@ -144,10 +144,15 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfM-me-sC7">
-                                <rect key="frame" x="142" y="266" width="36" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <rect key="frame" x="129" y="269" width="63" height="30"/>
+                                <color key="backgroundColor" red="0.9666559100151062" green="0.68803709745407104" blue="0.19485792517662048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TWJ-8d-7Dn"/>
+                                    <constraint firstAttribute="width" constant="63" id="lwR-px-cb3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Add">
-                                    <color key="titleColor" red="0.0050873922010000001" green="0.0027768094339999999" blue="0.0087047906090000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="addLovedOne:" destination="ojo-JZ-pOP" eventType="touchUpInside" id="sTH-gZ-Hm4"/>
@@ -157,18 +162,18 @@
                         <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="PKV-CL-Xsn" firstAttribute="top" secondItem="Tae-gI-vK6" secondAttribute="top" constant="78" id="3by-3z-zhX"/>
-                            <constraint firstItem="dfM-me-sC7" firstAttribute="centerX" secondItem="egN-36-0mF" secondAttribute="centerX" id="3gS-xn-iTG"/>
                             <constraint firstItem="4jU-gd-4FP" firstAttribute="leading" secondItem="Tae-gI-vK6" secondAttribute="leading" constant="49" id="799-Ed-w2y"/>
                             <constraint firstItem="Tae-gI-vK6" firstAttribute="trailing" secondItem="4jU-gd-4FP" secondAttribute="trailing" constant="48" id="7EX-1U-vP7"/>
                             <constraint firstItem="Tae-gI-vK6" firstAttribute="trailing" secondItem="y9e-77-OCa" secondAttribute="trailing" constant="48" id="7Nt-dV-Nsf"/>
                             <constraint firstItem="PKV-CL-Xsn" firstAttribute="leading" secondItem="Hty-ig-Aqf" secondAttribute="trailing" constant="1" id="IxT-yt-SwW"/>
+                            <constraint firstItem="dfM-me-sC7" firstAttribute="top" secondItem="y9e-77-OCa" secondAttribute="bottom" constant="28" id="Myz-wL-6VY"/>
                             <constraint firstItem="Hty-ig-Aqf" firstAttribute="top" secondItem="Tae-gI-vK6" secondAttribute="top" constant="74" id="Pms-0H-niM"/>
+                            <constraint firstItem="dfM-me-sC7" firstAttribute="centerX" secondItem="egN-36-0mF" secondAttribute="centerX" id="RdF-p4-2MR"/>
                             <constraint firstItem="Hty-ig-Aqf" firstAttribute="leading" secondItem="Tae-gI-vK6" secondAttribute="leading" constant="16" id="UfW-0Z-DVS"/>
                             <constraint firstItem="PKV-CL-Xsn" firstAttribute="centerX" secondItem="egN-36-0mF" secondAttribute="centerX" id="cBf-mn-yB0"/>
                             <constraint firstItem="y9e-77-OCa" firstAttribute="leading" secondItem="Tae-gI-vK6" secondAttribute="leading" constant="49" id="eO4-O5-WMk"/>
                             <constraint firstItem="y9e-77-OCa" firstAttribute="top" secondItem="4jU-gd-4FP" secondAttribute="bottom" constant="17" id="hvg-Ix-kef"/>
                             <constraint firstItem="4jU-gd-4FP" firstAttribute="top" secondItem="PKV-CL-Xsn" secondAttribute="bottom" constant="30" id="iJc-bB-Lr3"/>
-                            <constraint firstItem="dfM-me-sC7" firstAttribute="top" secondItem="y9e-77-OCa" secondAttribute="bottom" constant="25" id="vQF-Qh-wSD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tae-gI-vK6"/>
                     </view>
@@ -192,8 +197,8 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ihH-EE-xoE">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="separatorColor" red="0.0050873922010000001" green="0.0027768094339999999" blue="0.0087047906090000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.95280677080154419" green="0.57203382253646851" blue="0.19131067395210266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="TTE-2N-WBS">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
@@ -201,9 +206,25 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TTE-2N-WBS" id="yCL-PE-AEN">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                    <color key="value" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                 </prototypes>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                        <color key="value" red="0.95795756578445435" green="0.96429413557052612" blue="0.96435588598251343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="dataSource" destination="hXN-aA-kdi" id="cmy-fd-InF"/>
                                     <outlet property="delegate" destination="hXN-aA-kdi" id="bGI-R4-8ZX"/>
