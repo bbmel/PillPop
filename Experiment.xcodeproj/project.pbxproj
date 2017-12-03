@@ -14,18 +14,11 @@
 		4030AF021FD2384D00147968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4030AF001FD2384D00147968 /* LaunchScreen.storyboard */; };
 		4030AF0D1FD2384D00147968 /* ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030AF0C1FD2384D00147968 /* ExperimentTests.swift */; };
 		4030AF181FD2384D00147968 /* ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030AF171FD2384D00147968 /* ExperimentUITests.swift */; };
-		4030AF4F1FD369F800147968 /* pillpop_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4030AF4E1FD369F800147968 /* pillpop_logo.png */; };
-		4030AF511FD36A6C00147968 /* logo_lowres.png in Resources */ = {isa = PBXBuildFile; fileRef = 4030AF501FD36A6C00147968 /* logo_lowres.png */; };
 		4068405F1FD4054F004332BB /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068405E1FD4054F004332BB /* heart.png */; };
 		406840651FD40682004332BB /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840641FD40682004332BB /* plus.png */; };
 		406840671FD407D7004332BB /* LovedOnesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406840661FD407D7004332BB /* LovedOnesController.swift */; };
 		406840691FD40B89004332BB /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840681FD40B89004332BB /* bottle.png */; };
-		4068406B1FD40C2C004332BB /* pill_bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068406A1FD40C2B004332BB /* pill_bottle.png */; };
 		4068406D1FD40DD7004332BB /* AddLovedOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068406C1FD40DD7004332BB /* AddLovedOneViewController.swift */; };
-		4068406F1FD4204B004332BB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068406E1FD4204B004332BB /* logo.png */; };
-		406840711FD42402004332BB /* engaged!.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840701FD42402004332BB /* engaged!.png */; };
-		406840731FD42441004332BB /* official_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840721FD42441004332BB /* official_logo.png */; };
-		406840751FD42492004332BB /* smaller_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840741FD42491004332BB /* smaller_logo.png */; };
 		406840771FD4251F004332BB /* logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 406840761FD4251E004332BB /* logo_black.png */; };
 		9D3712ACAB18557C6BF08EFA /* Pods_Experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE754FC0D9D994FD0482F12B /* Pods_Experiment.framework */; };
 /* End PBXBuildFile section */
@@ -62,18 +55,11 @@
 		4030AF131FD2384D00147968 /* ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4030AF171FD2384D00147968 /* ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentUITests.swift; sourceTree = "<group>"; };
 		4030AF191FD2384D00147968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4030AF4E1FD369F800147968 /* pillpop_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pillpop_logo.png; path = Images/pillpop_logo.png; sourceTree = "<group>"; };
-		4030AF501FD36A6C00147968 /* logo_lowres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_lowres.png; path = Images/logo_lowres.png; sourceTree = "<group>"; };
 		4068405E1FD4054F004332BB /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = SOURCE_ROOT; };
 		406840641FD40682004332BB /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		406840661FD407D7004332BB /* LovedOnesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovedOnesController.swift; sourceTree = "<group>"; };
 		406840681FD40B89004332BB /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
-		4068406A1FD40C2B004332BB /* pill_bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pill_bottle.png; sourceTree = "<group>"; };
 		4068406C1FD40DD7004332BB /* AddLovedOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLovedOneViewController.swift; sourceTree = "<group>"; };
-		4068406E1FD4204B004332BB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		406840701FD42402004332BB /* engaged!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "engaged!.png"; sourceTree = "<group>"; };
-		406840721FD42441004332BB /* official_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = official_logo.png; sourceTree = "<group>"; };
-		406840741FD42491004332BB /* smaller_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smaller_logo.png; sourceTree = "<group>"; };
 		406840761FD4251E004332BB /* logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_black.png; sourceTree = "<group>"; };
 		8D303A95604817AC09056FFF /* Pods-Experiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Experiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Experiment/Pods-Experiment.release.xcconfig"; sourceTree = "<group>"; };
 		DE754FC0D9D994FD0482F12B /* Pods_Experiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Experiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,17 +124,10 @@
 		4030AEF61FD2384D00147968 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
-				406840721FD42441004332BB /* official_logo.png */,
-				406840701FD42402004332BB /* engaged!.png */,
-				4068406E1FD4204B004332BB /* logo.png */,
 				406840761FD4251E004332BB /* logo_black.png */,
-				4068406A1FD40C2B004332BB /* pill_bottle.png */,
 				406840681FD40B89004332BB /* bottle.png */,
 				406840641FD40682004332BB /* plus.png */,
-				406840741FD42491004332BB /* smaller_logo.png */,
 				4068405E1FD4054F004332BB /* heart.png */,
-				4030AF501FD36A6C00147968 /* logo_lowres.png */,
-				4030AF4E1FD369F800147968 /* pillpop_logo.png */,
 				4030AEF71FD2384D00147968 /* AppDelegate.swift */,
 				4030AEF91FD2384D00147968 /* ViewController.swift */,
 				4030AEFB1FD2384D00147968 /* Main.storyboard */,
@@ -301,15 +280,8 @@
 				406840771FD4251F004332BB /* logo_black.png in Resources */,
 				4030AF021FD2384D00147968 /* LaunchScreen.storyboard in Resources */,
 				4068405F1FD4054F004332BB /* heart.png in Resources */,
-				406840711FD42402004332BB /* engaged!.png in Resources */,
 				4030AEFF1FD2384D00147968 /* Assets.xcassets in Resources */,
-				4030AF4F1FD369F800147968 /* pillpop_logo.png in Resources */,
-				4068406B1FD40C2C004332BB /* pill_bottle.png in Resources */,
-				406840751FD42492004332BB /* smaller_logo.png in Resources */,
-				4030AF511FD36A6C00147968 /* logo_lowres.png in Resources */,
-				4068406F1FD4204B004332BB /* logo.png in Resources */,
 				406840651FD40682004332BB /* plus.png in Resources */,
-				406840731FD42441004332BB /* official_logo.png in Resources */,
 				4030AEFD1FD2384D00147968 /* Main.storyboard in Resources */,
 				406840691FD40B89004332BB /* bottle.png in Resources */,
 			);
